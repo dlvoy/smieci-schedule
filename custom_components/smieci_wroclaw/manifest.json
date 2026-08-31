@@ -1,0 +1,12 @@
+{
+  "domain": "smieci_wroclaw",
+  "name": "Harmonogram odpadow (smieci.example.com)",
+  "codeowners": ["@dlvoy"],
+  "config_flow": true,
+  "documentation": "https://github.com/dlvoy/smieci-schedule",
+  "issue_tracker": "https://github.com/dlvoy/smieci-schedule/issues",
+  "integration_type": "service",
+  "iot_class": "local_polling",
+  "requirements": [],
+  "version": "1.0.0"
+}

@@ -1,0 +1,51 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Harmonogram odpadow (smieci.example.com)",
+        "data": {
+          "base_url": "Adres serwisu",
+          "token": "Token dostepu (PAT)"
+        },
+        "data_description": {
+          "base_url": "Adres, pod ktorym dziala smieci.example.com.",
+          "token": "Token wygenerowany w panelu administracyjnym serwisu (/admin/tokeny)."
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Token jest nieprawidlowy.",
+      "cannot_connect": "Nie udalo sie polaczyc z serwisem."
+    },
+    "abort": {
+      "already_configured": "To wystapienie serwisu jest juz skonfigurowane."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "menu_options": {
+          "add_target": "Dodaj cel powiadomien",
+          "remove_target": "Usun cel powiadomien"
+        }
+      },
+      "add_target": {
+        "title": "Nowy cel powiadomien",
+        "data": {
+          "notify_service": "Encja powiadomien",
+          "hour": "Godzina",
+          "minute": "Minuta",
+          "events": "Wysylaj przy",
+          "fractions": "Frakcje (puste = wszystkie)",
+          "enabled": "Wlaczony"
+        }
+      },
+      "remove_target": {
+        "title": "Usun cel powiadomien",
+        "data": {
+          "target_id": "Ktory cel usunac"
+        }
+      }
+    }
+  }
+}
